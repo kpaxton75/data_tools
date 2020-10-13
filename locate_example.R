@@ -8,7 +8,7 @@ source("functions/data_manager.R")
 source("functions/localization.R")
 
 ###EDIT THESE VALUES
-infile <- "../data/ABS_TagTest1/data"
+infile <- "~/Dropbox (Personal)/HIresearch/9_HCSU/Micronesian.Starling.Movement/DataFolders"
 outpath <- "../output/"
 
 tags <- read.csv("../data/ABS_TagTest1/supp/tags-to-analyze.csv", as.is=TRUE, na.strings=c("NA", "")) #uppercase node letters
